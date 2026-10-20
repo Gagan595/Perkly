@@ -72,4 +72,3 @@ The scenarios to capture from the running app are:
 3. **Loading:** visible briefly while the asynchronous API promise is pending.
 4. **Error and recovery:** the error message and **Try again** action when the API rejects, followed by the dashboard when a retry succeeds.
 
-The error state is exercised in `src/App.test.jsx` by rejecting the mocked API request. Replace the in-memory API with a real endpoint by updating `fetchTransactions`; no dashboard calculation code depends on the sample records.
