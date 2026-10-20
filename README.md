@@ -73,14 +73,3 @@ The scenarios to capture from the running app are:
 4. **Error and recovery:** the error message and **Try again** action when the API rejects, followed by the dashboard when a retry succeeds.
 
 The error state is exercised in `src/App.test.jsx` by rejecting the mocked API request. Replace the in-memory API with a real endpoint by updating `fetchTransactions`; no dashboard calculation code depends on the sample records.
-
-## GitHub
-
-The current checkout has no Git remote configured. After creating or selecting the intended GitHub repository, add its URL and push the branch:
-
-```bash
-git remote add origin <repository-url>
-git add .
-git commit -m "Build customer rewards dashboard"
-git push -u origin main
-```
